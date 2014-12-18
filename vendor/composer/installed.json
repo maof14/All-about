@@ -1,0 +1,48 @@
+[
+    {
+        "name": "mos/cform",
+        "version": "2.x-dev",
+        "version_normalized": "2.9999999.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mosbth/cform.git",
+            "reference": "1cf19137ffe374e46a50f8b8b341b0c5f8942553"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mosbth/cform/zipball/1cf19137ffe374e46a50f8b8b341b0c5f8942553",
+            "reference": "1cf19137ffe374e46a50f8b8b341b0c5f8942553",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "time": "2014-11-26 13:18:21",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Mos\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "me@mikaelroos.se",
+                "homepage": "http://mikaelroos.se",
+                "role": "Developer"
+            }
+        ],
+        "description": "Classes for HTML Forms",
+        "homepage": "http://dbwebb.se/",
+        "keywords": [
+            "Forms",
+            "education",
+            "html"
+        ]
+    }
+]

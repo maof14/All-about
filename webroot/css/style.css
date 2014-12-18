@@ -1,0 +1,365 @@
+/**
+ * General elements
+ */
+
+@import url(figure.css);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+  color: #333;
+  font-family: arial, sans-serif;
+  overflow-y: scroll;
+}
+
+h1 {
+  font-size: 2.2em;
+  margin-top: 0px;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding: 0px;
+}
+
+a {
+  color: #000;
+}
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+  margin: 0 auto;
+  width: 980px; 
+  padding: 10px;
+}
+
+/**
+ * Layout for header
+ */
+#header {
+  margin-bottom: 40px;
+}
+
+#header .container {
+  text-align: center;
+}
+
+.sitetitle {
+  font-size: 62px;
+  padding-bottom: 30px;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.siteslogan {
+  padding: 1em 0em;
+  border-top: solid 1px #666;
+  border-bottom: solid 1px #666;
+  font-style: italic;
+  color: #666;
+}
+
+
+/**
+ * Layout for main
+ */
+#main {
+  min-height: 20em;
+}
+div#tags-container h2 {
+  margin-bottom: 41px;
+}
+
+/**
+ * Layout for footer
+ */
+#footer {
+  margin-top: 40px;
+  border-top: 1px solid #CCC;
+  padding-top: 22px;
+  font-size: smaller;
+  clear:both;
+}
+
+.sitefooter {
+  color: #666;
+}
+/* nödvändigt? */
+.question {
+  min-height: 250px;
+  overflow: auto;
+}
+.answer {
+  min-height: 100px;
+  overflow: auto;
+  clear: both;
+}
+/* mösrcning */ 
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.grey {
+  color: #666;
+}
+.small {
+  font-size: smaller;
+}
+.top {
+  margin-top: 0px;
+}
+.large {
+  font-size: larger;
+}
+.bold {
+  font-weight: bold;
+}
+.justify {
+  text-align: justify;
+}
+.center {
+  text-align: center;
+}
+
+/* questions and answers */
+.question-table, .answer-table {
+  width: 100%;
+} 
+
+.answer-table {
+  border-bottom: 1px solid #ccc;
+}
+td.question-vote-area, td.answer-vote-area {
+  width: 8%;
+  text-align: center;
+}
+
+td.question-vote-area p {
+  margin-top: 34px;
+}
+.question-vote-area, .answer-vote-area {
+  vertical-align: top;
+}
+td.question-content, td.answer-content {
+  width: 92%;
+}
+div.vote-area {
+  display: table-cell;
+  text-align: center;
+  width: 8%;
+  float: left;
+  padding: 5px;
+  margin: 5px 20px 5px 5px;
+  border: 1px dashed #ccc;
+}
+div.vote-badge {
+  background:#E6E6E6;
+  padding: 10px;
+  border-radius: 10px;
+}
+div.question-container {
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 25px;
+  margin: 20px 0 20px;
+  border-bottom: 1px solid #ccc;
+}
+div.question-content {
+  width: 87%;
+  float: left;
+}
+
+div.question-summary, div.question-tags, div.question-user {
+  padding-bottom: 10px;
+}
+/* profiles and answers end. */
+
+/* Profiles */
+
+div.profile {
+  overflow: hidden;
+}
+div.info-column {
+    width: 25%;
+    clear: left;
+    margin-top: 16px;
+    border-right: 1px solid #ccc;
+}
+div.profile-pic figure img {
+  box-shadow: 10px 10px 5px #888;
+}
+div.user-presentation-text {
+  width: 70%;
+  margin-left: 4%;
+}
+
+div.tags {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.tags a {
+  background: #ccc;
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin: 5px;
+}
+
+.front-question div.tags {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+}
+
+.front-question div.tags a {
+  margin-left: 0;
+}
+
+div#tags-container .tags a {
+  white-space: nowrap;
+  line-height: 2.5em;
+}
+
+div.front-question {
+  width: 33%;
+}
+
+.table-controls {
+  text-align: center;
+  margin: 0px auto;
+}
+
+.thumb-up {
+  color: green;
+}
+.thumb-down {
+  color: red;
+}
+
+input[type=text], input[type=password], input[type=submit] {
+  font-family: 'Montserrat', 'sans-serif';
+  font-size: 12px;
+}
+textarea {
+  font-family: 'Montserrat', 'sans-serif';
+  font-size: 12px;
+}
+
+.edit-profile-form input[type=text],
+.edit-question-form input[type=text],
+.create-question-form input[type=text],
+.create-account-form input[type=text],
+textarea {
+  width: 600px;
+}
+.create-answer-form textarea {
+  height: 150px;
+}
+.create-question-form textarea, 
+.edit-question-form textarea,
+.edit-profile-form textarea {
+  height: 300px;
+}
+.user-info {
+  clear: both;
+}
+.user-badge {
+  float:left;
+  width: 29%;
+  margin: 1%;
+  background: #eee;
+  padding: 1%;
+  border-radius: 10px;
+
+}
+div.user-badge img {
+  margin-right: 10px;
+}
+.star {
+  color: gold;
+}
+.score-area {
+  position: relative;
+  left: 42px;
+}
+.score-area p {
+  position: relative;
+  left: 17px;
+}
+.score {
+  font-weight: bold;
+}
+.space-below {
+  margin-bottom: 20px;
+}
+.order-controls a {
+  margin: 0.2em;
+  padding-top: 0.2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #fff;
+}
+.order-controls {
+  width: 100%;
+}
+.order-controls-links {
+  border-bottom: 1px solid #ccc;
+}
+#front-article {
+  width: 73%;
+  margin-right: 2%;
+}
+#front-questions-container {
+  clear:both;
+}
+fieldset {
+  border: 0;
+  padding: 0;
+}
+
+.create-comment-form {
+  font-size: small;
+}
+.create-comment-form textarea {
+  width: 300px;
+  height: 40px;
+}
+.indent {
+  margin-left: 70px;
+  padding-left: 10px;
+  border-left: 1px dashed #ccc;
+}
+
+/**
+ * For articles
+ */
+.article1 {
+  width: 700px;
+  border-right: 1px solid #ccc;
+  padding-right: 1em;
+}
+
+.article1 h1,
+.article1 h2 {
+  border-bottom: 1px solid #ccc;
+}
+
+.byline {
+  margin-top: 44px;
+  border-top: 1px dashed #ccc;
+  padding-top: 22px;
+  color: #666;
+}
+.byline p {
+  margin-top: 0;
+}
