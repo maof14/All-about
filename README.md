@@ -1,7 +1,7 @@
 All-about
 =========
 
-Hello and welcome to All-about. All-about is a template project to a question-site, a simple site similar to Stack Overflow. Users can create questions, answer questions and gather points. If the creator of a question finds the correct answer among the comments, he can mark the answer as such, giving extra points to the submitter. 
+Hello and welcome to the All-about github page. All-about is a template project to a question-site, a simple site similar to Stack Overflow. Users can create questions, answer questions and gather points. If the creator of a question finds the correct answer among the comments, he can mark the answer as such, giving extra points to the submitter. 
 
 A fun way of learning new things! 
 
