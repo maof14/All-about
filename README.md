@@ -21,7 +21,7 @@ Anax-MVC
 
 This template project uses Anax-MVC as framework. Anax-MVC is developed by Mikael Roos. See the Anax-MVC project at Github for more information on the framework and included 3pp softwares. 
 
-[Anax-MVC](https://github.com/mosbth/Anax-MVC)
+[Anax-MVC on Github](https://github.com/mosbth/Anax-MVC)
 
 Acknowledgements
 ----------------
