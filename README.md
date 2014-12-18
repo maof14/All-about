@@ -14,7 +14,7 @@ Get a clone of the project using git clone.
 
 Select a theme and a topic for your installation in the file app/config/theme.php. In this file, you set the title of the site, tagline and include your custom css files. 
 
-Clear the database file and setup a fresh one. For simplicity, this project is using SQLite as database. You can also choose to use MySQL as database by using the config_mysql.php instead of the current config_sqlite.php in index.php. 
+Clear the database file and setup a fresh one. For simplicity, this project is using SQLite as database. You can also choose to use MySQL as database by using the config_mysql.php instead of the current config_sqlite.php in index.php. Those files are located in app/config.
 
 This project heavily depends on rerouting the urls to get the beautiful urls. This requires you to reroute requests to the index.php file by pointing all requests to this file in the .htaccess file located in /webroot/.
 
